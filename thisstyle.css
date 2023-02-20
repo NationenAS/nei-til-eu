@@ -1,0 +1,300 @@
+h1 {
+    color: #515151;
+    font-family: adelle_sansheavy;
+    font-size:45px;
+    max-width: 100%;
+    margin: auto;
+}
+.h1 {
+    font-size: 45px;
+}
+
+.small-img img {
+    width: 100%;
+}
+.iframe {
+    width: 300px;
+    margin: auto;
+}
+
+.lenk {
+    color: black;
+}
+
+.lenk:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #515151;
+}
+
+audio {
+    padding: 20px ;
+    width: 200px;
+    box-sizing: content-box;
+    display: block;
+    margin: 15px auto 75px auto;
+    border: solid 2px #515151;
+    border-radius: 50px;
+}
+
+.audio::before{
+    content: 'HØR';
+    position: relative;
+    font-family: adelle_sansregular, Arial, Helvetica, sans-serif;
+    top: 30px;
+    left: 25%;
+    z-index: 500;
+    font-size: 25px;
+    
+    
+    background-color: white;
+    padding:0px 3px 0px 5px;
+}
+.tekst-over-bilde {
+    position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color:white;  
+  max-width: 100% ;
+  font-size: 14px;
+
+}
+
+.small {
+    display: block;
+}
+
+.large {
+    display: none;
+}
+
+
+/* TODO. gi img en ny klasse*/
+
+
+
+h5 {
+    text-align: center;
+    font-family: adelle_sansthin_italic, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 2px;
+    font-size: 20px; 
+}
+
+h5.podcast {
+    max-width: 300px ;
+    margin: auto;
+    position: relative;
+    top: -65px;
+    font-size: 16px;
+}
+
+
+
+
+iframe {
+    margin: auto;
+    display: block;
+}
+
+.padding {
+    margin-bottom: 50px;
+    margin-top: 50px
+}
+
+@media only screen and (min-width:350px) {
+    audio {
+        width: 250px;
+    }
+
+    .iframe {
+        width: 350px;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width:464px){
+
+    h1 {
+        color: #515151;
+        font-family: adelle_sansheavy;
+        font-size:50px;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .h1 {
+        font-size: 64px;
+    }
+
+    .iframe {
+        width: 450px;
+        margin: auto;
+    }
+
+    audio {
+        width: 300px;
+    }
+
+    .tekst-over-bilde {
+        max-width: 95%;
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (min-width:576px){
+
+    h1 {
+        color: #515151;
+        font-family: adelle_sansheavy;
+        font-size:70px;
+        max-width: 100%;
+        margin: auto;
+    } 
+
+    .h1 {
+        font-size: 87px;
+    }
+
+    .tekst-over-bilde {
+        max-width: 95%;
+        font-size: 16px;
+    }
+    .audio {
+        height: 0;
+    }
+
+    .audio::before{
+        content: 'HØR';
+        position: relative;
+        font-family: adelle_sansregular, Arial, Helvetica, sans-serif;
+        top: -5px;
+        left: 150px;
+        z-index: 500;
+        font-size: 25px;        
+        
+        background-color: white;
+        padding:0px 5px 0px 7px;
+    }
+    .portrait img{
+        margin: auto;
+        display: block;    
+        max-width: 600px;
+    }
+
+}
+
+@media only screen and (min-width:768px){
+
+    h1 {
+        color: #515151;
+        font-family: adelle_sansheavy;
+        font-size:95px;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .h1 {
+        font-size: 120px;
+    }
+
+
+    .iframe {
+        width: 650px;
+        margin: auto;
+    }
+    .audio::before{
+        content: 'HØR';
+        position: relative;
+        font-family: adelle_sansregular, Arial, Helvetica, sans-serif;
+        top: -5px;
+        left: 230px;
+        z-index: 500;
+        font-size: 25px; 
+        background-color: white;
+        padding:0px 5px 0px 7px;
+    }
+
+    .small {
+        display: none;
+    }
+    
+    .large {
+        display: block;
+    }
+
+    .portrait img{
+        margin: auto;
+        display: block;    
+        max-width: 600px;
+    }
+
+    .tekst-over-bilde {
+        max-width: 95%;
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (min-width:992px){
+
+    h1 {
+        color: #515151;
+        font-family: adelle_sansheavy;
+        font-size:120px;
+        max-width: 100%;
+        margin: auto;
+    }
+    .h1 {
+        font-size: 150px;
+    }
+
+    .tekst-over-bilde {
+        max-width: 80%;
+        font-size: 16px;
+    }
+
+    .audio::before{
+        content: 'HØR';
+        position: relative;
+        font-family: adelle_sansregular, Arial, Helvetica, sans-serif;
+        top: -5px;
+        left: 345px;
+        z-index: 500;
+        font-size: 25px;
+        background-color: white;
+        padding:0px 5px 0px 7px;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    h1 {
+        color: #515151;
+        font-family: adelle_sansheavy;
+        font-size:150px;
+        max-width: 100%;
+        margin: auto;
+    }
+    .h1 {
+        font-size: 190px;
+    }
+
+    .tekst-over-bilde {
+        max-width: 70%;
+        font-size: 17px;
+    }
+
+    .audio::before{
+        content: 'HØR';
+        position: relative;
+        font-family: adelle_sansregular, Arial, Helvetica, sans-serif;
+        top: -5px;
+        left: 440px;
+        z-index: 500;
+        font-size: 25px;
+        background-color: white;
+        padding:0px 5px 0px 7px;
+    }
+}
